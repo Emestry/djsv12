@@ -1,0 +1,6 @@
+{
+    "prefix" : "!",
+    "token": "token",
+    "owners": ["ownerid"],
+    "defaultPerms": ["SEND_MESSAGES", "VIEW_CHANNEL"]
+}
