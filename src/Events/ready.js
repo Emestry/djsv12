@@ -23,6 +23,8 @@ module.exports = class extends Event {
 
 		let i = 0;
 		setInterval(() => this.client.user.setActivity(`${this.client.prefix}help | ${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 15000);
+
+		this.client.manager.init(this.client.user.id);
 	}
 
 };
